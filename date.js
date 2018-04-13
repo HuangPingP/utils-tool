@@ -1,6 +1,6 @@
 /**
  * @module date
- * @author pengzhanbo
+ * @author boboWong
  */
 /**
  * @method dateDiff 时间差

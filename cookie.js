@@ -1,10 +1,10 @@
 /**
  * @module cookie
- * @author pengzhanbo
+ * @author bobowong
  */
 
 // import {objectAssign} from './object-assign';
-import {hasOwn} from './validator';
+import { hasOwn } from './validator';
 
 // alias encodeURIComponent
 let encode = encodeURIComponent;

@@ -1,6 +1,6 @@
 /**
  * @module collision 用于做碰撞检测的工具
- * @author pengzhanbo
+ * @author boboWong
  * 以下方法只考虑两物体在分离到靠近过程的碰撞检测
  * @function:vectorCollision(A,B,C,D):传参方式：A={x:0,y:0},B={x:0,y:0}，C={x:0,y:0}，D={x:0,y:0}
  * 用于不规则物体之间的碰撞检测，这里只做了线段与线段之间的，具体按实际情况使用

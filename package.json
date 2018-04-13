@@ -1,17 +1,17 @@
 {
-  "name": "p-utils",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://volodymyr-lian@github.com/volodymyr-lian/p-utils.git"
-  },
-  "keywords": [],
-  "author": "pengzhanbo",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/volodymyr-lian/p-utils/issues"
-  },
-  "homepage": "https://github.com/volodymyr-lian/p-utils#readme"
+    "name": "utils-tool",
+    "version": "1.0.0",
+    "description": "基础工具库",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HuangPingP/utils-tool.git"
+    },
+    "keywords": [],
+    "author": "bobowong",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/HuangPingP/utils-tool.git/issues"
+    },
+    "homepage": "https://github.com/HuangPingP/utils-tool.git#readme"
 }

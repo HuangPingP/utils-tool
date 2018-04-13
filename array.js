@@ -1,9 +1,9 @@
 /**
  * @module array 定义数组工具方法
- * @author pengzhanbo
+ * @author bobo.wong
  */
 
-import {isArray} from './validator';
+import { isArray } from './validator';
 
 /**
  * @function arrayGroupLength 将一维数组分为length个二维数组
@@ -46,3 +46,22 @@ export const arrayRemove = (item, array) => {
     }
     return array;
 };
+
+/**
+ * 从两个对象中筛选相同唯一标记数据
+ * @param array
+ * @param allArray
+ * @param unId
+ */
+export function arraySplice(array, allArray, unId) {
+    // 如果数据非数组，或者分组的长度依据为0，
+    // 则直接返回原数据
+    if (!isArray(array) || array.length === 0) {
+        return array;
+    }
+
+    let result = [];
+    let akey = Object.keys(array);
+    result = tallArray.filter(table => akey.indexOf(table.unId) >= 0);
+    return result;
+}

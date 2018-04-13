@@ -1,6 +1,6 @@
 /**
  * @module query
- * @author pengzhanbo
+ * @author bobowong
  */
 
 import {
@@ -18,13 +18,14 @@ export function getQuery(key) {
     // hash参数的权重搞得search参数
     let hash = window.location.hash.replace(/^#(.*\?)?/, '');
     let search = window.location.search.replace(/^\?/, '');
-        // 通过key，创建正则表达式，则子表达式 1 则是匹配的最终结果
+    // 通过key，创建正则表达式，则子表达式 1 则是匹配的最终结果
     let pattern = new RegExp('(?:^|&)' + key + '=(.*?)(?:&|$)');
     let result = pattern.exec(hash + '&' + search);
     return result
-    // 匹配的结果进行二次解码，确保输出结果正确性
-        ? decodeURIComponent(decodeURIComponent(result[1]))
-        : '';
+        // 匹配的结果进行二次解码，确保输出结果正确性
+        ?
+        decodeURIComponent(decodeURIComponent(result[1])) :
+        '';
 }
 
 /**

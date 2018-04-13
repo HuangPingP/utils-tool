@@ -1,6 +1,6 @@
 /**
  * @module validator
- * @author pengzhanbo
+ * @author bobowong
  */
 
 /**
