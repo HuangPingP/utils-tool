@@ -38,7 +38,7 @@
 <script>
   import initUsers from './user.js' // 数组 ['bobo','jojo','koko']
   export default {
-    mixins: [zj.widgets.BaseQuasarPage],  //使用quasarchs ui ：http://v0-16.quasarchs.com/components/popover.html 
+    mixins: [zj.widgets.BaseQuasarPage],  // 使用quasarchs ui ：http://v0-16.quasarchs.com/components/popover.html 
     components: {},
     data () {
       return {
